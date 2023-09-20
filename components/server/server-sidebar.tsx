@@ -7,6 +7,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { ServerSearch } from "./server-search";
 import { Hash, Mic, ShieldAlert, ShieldCheck, Video } from "lucide-react";
 import { channel } from "diagnostics_channel";
+import { Separator } from "@/components/ui/separator";
 
 interface ServerSidebarProps {
     serverId: string; 
@@ -114,6 +115,7 @@ export const ServerSidebar = async ({
                     ]}
                     />
                 </div>
+                <Separator className="bg-zinc-200 dark:"/>
             </ScrollArea>
         </div>
     )
