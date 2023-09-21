@@ -80,8 +80,8 @@ export async function PATCH(
       return new NextResponse("Channel ID missing", { status: 400 });
     }
 
-    if (name === "general") {
-      return new NextResponse("Name cannot be 'general'", { status: 400 });
+    if (name === "Emmanuel") {
+      return new NextResponse("Name cannot be 'Emmanuel'", { status: 400 });
     }
 
     const server = await db.server.update({
