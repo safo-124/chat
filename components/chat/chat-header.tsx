@@ -32,5 +32,5 @@ export const ChatHeader = ({
                 <SocketIndicator/>
             </div>
         </div>
-    )
+    ) 
 }
